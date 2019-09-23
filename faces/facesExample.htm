@@ -1,0 +1,184 @@
+<html>
+<head>
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<script type="text/javascript">
+
+var numPics = 89;
+var beenDisplayed = 0;
+var currentPage = 3;
+var delayTime = 1000;
+var dotDelay = 500;
+var pageDelay = 1000;
+
+var A_UPPERCASE = 65;
+var A_LOWERCASE = 97;
+var COLON = 58;
+var SEMI_COLON = 59;
+var CTRL_C = 99;
+var TILDE = 126;
+
+function rand ()
+{
+  return ( Math.floor ( Math.random ( ) * numPics + 1 ) );
+}
+
+
+var imageLeft = rand();
+var imageRight = rand();
+
+while (imageRight==imageLeft) {
+    imageRight = rand();
+}
+
+blankPic = new Image (104, 147)
+blankPic.src="blank.gif"
+
+blackDot = new Image (104, 147)
+blackDot.src="blackdot.gif"
+
+pic1 = new Image (104, 147)
+pic1.src="images/" + imageLeft + ".jpg"
+
+pic2 = new Image (104, 147)
+pic2.src="images/" + imageRight + ".jpg"
+
+
+
+function chooseLeft()
+{
+alert("Left chosen: candidate " + imageLeft +".")
+}
+
+function chooseRight()
+{
+alert("Right chosen: candidate " + imageRight +".")
+}
+
+function skipQuestion()
+{
+alert("Question skipped")
+}
+
+function hideImage()
+{
+document.images[0].src = blankPic.src
+document.images[2].src = blankPic.src
+}
+
+function displayImage()
+{
+document.images[0].src = pic1.src
+document.images[2].src = pic2.src
+var t = setTimeout("hideImage()",delayTime)
+disableButton('displayButton')
+}
+
+function showDot()
+{
+if (beenDisplayed == 1)
+    {
+    alert("You've already viewed these images")
+    disableButton('displayButton')
+    return;
+    }
+beenDisplayed = 2
+
+document.images[1].src = blackDot.src;
+setTimeout("hideDot()", dotDelay);
+}
+
+function onLoadDelay()
+{
+setTimeout("showDot()", pageDelay);
+}
+
+function hideDot()
+{
+document.images[1].src = blankPic.src;
+displayImage();
+}
+
+
+function disableButton(whichButton)
+{
+    if (document.getElementById)
+    {
+        // this is the way the standards work
+        document.getElementById(whichButton).disabled = true;
+    }
+    else if (document.all)
+    {
+        // this is the way old msie versions work
+        document.all[whichButton].disabled = true;
+    }
+    else if (document.layers)
+    {
+        // this is the way nn4 works
+        document.layers[whichButton].disabled = true;
+    }
+}
+
+
+window.onload = function()
+{
+onLoadDelay();
+document.onkeypress = docOnKeypress;
+}
+function docOnKeypress(evt)
+{
+var e = evt? evt : window.event;
+if(!e) return;
+var key = 0;
+if (e.keyCode) { key = e.keyCode; } // for moz/fb, if keyCode==0 use 'which'
+else if (typeof(e.which)!= 'undefined') { key = e.which; }
+
+
+if (key == A_LOWERCASE || key == A_UPPERCASE)
+    {
+        chooseLeft();
+    }
+
+if (key == SEMI_COLON || key == COLON)
+    {
+        chooseRight();
+    }
+
+if (key == TILDE)
+    {
+        skipQuestion();
+    }
+
+}
+
+//-->
+
+</script>
+</head>
+
+<body><center>
+<img src="blank.gif" width=105 height=147 />
+<img src="blank.gif" width=105 height=147 />
+<img src="blank.gif" width=105 height=147 />
+
+<table align="center">
+    <tr>
+    <td class="left">
+    <h2>Press "a" if the image on the left looks more competent.</h2>
+    </td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td class="right">
+    <h2>Press ";" if the image on the right looks more competent.</h2>
+    </td>
+    </tr>
+</table>
+
+
+
+<h2><a href="JavaScript:location.reload(true);">
+Click here for new candidates.
+</a></h2>
+
+</script>
+</center>
+</body>
+</html>
