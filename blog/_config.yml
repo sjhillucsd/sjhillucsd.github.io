@@ -23,7 +23,8 @@ title: Seth Hill's blog
 description: >- # this means to ignore newlines until "baseurl:"
   Blog for political scientist and professor Seth Hill.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://www.sethjhill.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#url: "http://www.sethjhill.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: seth_j_hill
 #github_username:  jekyll
 
