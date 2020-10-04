@@ -28,8 +28,8 @@ twitter_username: seth_j_hill
 #github_username:  jekyll
 
 # Build settings
-#theme: minima
-theme: jekyll-theme-cayman
+theme: minima
+#theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 permalink: /:year/:month/:day/:title/
