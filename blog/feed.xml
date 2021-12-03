@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://www.sethjhill.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.sethjhill.com/blog/" rel="alternate" type="text/html" /><updated>2021-03-23T11:41:12-07:00</updated><id>http://www.sethjhill.com/blog/feed.xml</id><title type="html">Seth Hill’s blog</title><subtitle>Blog for political scientist and professor Seth Hill.</subtitle><entry><title type="html">How to reduce greenhouse gas emissions, unlock $1 trillion of land, and free 1 billion days of time</title><link href="http://www.sethjhill.com/blog/2021/03/23/challenge-prize-flying-cars/" rel="alternate" type="text/html" title="How to reduce greenhouse gas emissions, unlock $1 trillion of land, and free 1 billion days of time" /><published>2021-03-23T00:00:00-07:00</published><updated>2021-03-23T00:00:00-07:00</updated><id>http://www.sethjhill.com/blog/2021/03/23/challenge-prize-flying-cars</id><content type="html" xml:base="http://www.sethjhill.com/blog/2021/03/23/challenge-prize-flying-cars/">&lt;p&gt;Congress and the Biden Administration are in discussions on a multi-trillion dollar infrastructure bill. Much of that money would fund construction of roadways using concrete, steel, and asphalt.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://www.sethjhill.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.sethjhill.com/blog/" rel="alternate" type="text/html" /><updated>2021-12-03T08:08:38-08:00</updated><id>http://www.sethjhill.com/blog/feed.xml</id><title type="html">Seth Hill’s blog</title><subtitle>Blog for political scientist and professor Seth Hill.</subtitle><entry><title type="html">American endorsement of conspiracy theories is smaller than you think</title><link href="http://www.sethjhill.com/blog/2021/12/03/acquiescence-bias/" rel="alternate" type="text/html" title="American endorsement of conspiracy theories is smaller than you think" /><published>2021-12-03T00:00:00-08:00</published><updated>2021-12-03T00:00:00-08:00</updated><id>http://www.sethjhill.com/blog/2021/12/03/acquiescence-bias</id><content type="html" xml:base="http://www.sethjhill.com/blog/2021/12/03/acquiescence-bias/">&lt;script type=&quot;text/javascript&quot; language=&quot;javascript&quot;&gt;
+  var sc_project=1954844; var sc_invisible=1;
+  var sc_security=&quot;152490bf&quot;;
+ &lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://www.statcounter.com/counter/counter.js&quot; async=&quot;&quot;&gt;
+ &lt;/script&gt;
+
+&lt;p&gt;If news headlines are accurate, many Americans hold deeply troubling conspiratorial beliefs about political and other issues. For example, NBC News writes, &lt;a href=&quot;https://www.nbcnews.com/politics/meet-the-press/study-finds-nearly-one-five-americans-believe-qanon-conspiracy-theories-n1268722&quot;&gt;“Study finds nearly one-in-five Americans believe QAnon conspiracy theories”&lt;/a&gt; because 15 percent of respondents to a survey agreed with the statement “the government, media, and financial worlds in the U.S. are controlled by a group of Satan-worshipping pedophiles who run a global child sex trafficking operation.”&lt;/p&gt;
+
+&lt;p&gt;In that &lt;a href=&quot;https://www.prri.org/research/qanon-conspiracy-american-politics-report/&quot;&gt;same poll&lt;/a&gt;, 29 percent of respondents completely or mostly agreed with the statement “The 2020 election was stolen from Donald Trump.” &lt;!--- Question wording =  Do you agree or disagree with each of the following? &quot;Q9a. The government, media, and financial worlds in the U.S. are controlled by a group of Satan-worshipping pedophiles who run a global child sex trafficking operation.&quot;
+&quot;The 2020 election was stolen from Donald Trump.&quot; https://www.prri.org/wp-content/uploads/2021/05/Topline-IFYC-PRRI-Survey-on-Religion-and-COVID-19-Vaccine-Trust-v2_final.pdf ---&gt;&lt;/p&gt;
+
+&lt;p&gt;But these conclusions might be overstated. &lt;a href=&quot;http://www.margaretroberts.net&quot;&gt;Molly Roberts&lt;/a&gt; and I show in our paper &lt;a href=&quot;https://www.sethjhill.com/HillRoberts_AcqBiasPoliticalBeliefs.pdf&quot;&gt;&lt;em&gt;Acquiescence Bias Inflates Estimates of Conspiratorial Beliefs and Political Misperceptions&lt;/em&gt;&lt;/a&gt; that &lt;em&gt;how you ask questions&lt;/em&gt; in opinion surveys can &lt;em&gt;bias conclusions about political beliefs&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;We find that &lt;em&gt;acquiescence-response bias&lt;/em&gt; – the tendency for survey respondents to endorse any assertion made in a survey question regardless of content – inflates the number of survey respondents who &lt;em&gt;agree&lt;/em&gt; with political conspiracies.&lt;/p&gt;
+
+&lt;p&gt;That is, if you ask respondents if they agree or disagree with the statement&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The 2020 election was stolen from Donald Trump&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;more will claim to agree than if you ask respondents if they agree or disagree with the statement&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The 2020 election was not stolen from Donald Trump.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Because questions about conspiracy theories are often framed similar to the first rather than the second, acquiesence bias inflates the number of survey respondents who say they agree with the statement.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-research&quot;&gt;The research&lt;/h1&gt;
+
+&lt;p&gt;We replicated work from recent published academic articles on political beliefs in the United States and China. We fielded six new surveys covering a range of topics, samples, elicitation instruments, and types of misperceptions and conspiracies.&lt;/p&gt;
+
+&lt;p&gt;To measure acquiescence bias, we used a simple research design. For each question asking a bout a political belief on each survey, we fielded both the original version of the question and an alternative version of the same question that flips the meaning of the agreeable response so that in the alternative version acquiescence bias works in the opposite direction.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-findings&quot;&gt;The findings&lt;/h1&gt;
+
+&lt;p&gt;We found that survey respondents do not return the same rate of endorsement to the two versions of each question on the majority of questions across samples, topics, instruments, and types of belief. Acquiescence bias inflates estimates by up to 50%. We found particularly large acquiescence bias on questions about democratic norms and the transition of power following the 2020 American presidential election.&lt;/p&gt;
+
+&lt;p&gt;Below we present Figure 1 from our paper, which compares the rate endorsing political beliefs across 55 different questions for those asked the question where agreement indicates endorsement of the conspiracy or belief (“positive-keyed” on the x-axis) to the rate endorsing for those asked the question where agreement indicates non-endorsement (“negative-keyed” on the y-axis). All but one of the points falls below the 45 degree line, which means a larger proportion of respondents endorse the conspiracy when asked the positive- than when asked the negative-keyed version. This is acquiescence bias.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/assets/acq-bias-45.jpg&quot; alt=&quot;Effect of question wording on agreement with rumors and facts&quot; title=&quot;Effect of question wording on agreement with rumors and facts&quot; width=&quot;500&quot; target=&quot;_blank&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;bias-particularly-prevalent-among-ideologues&quot;&gt;Bias particularly prevalent among ideologues&lt;/h1&gt;
+
+&lt;p&gt;In recent years, many prominent studies and news stories have reported on troubling magnitudes of conspiracy beliefs by ideological conservatives. We found that subjects who identify as very conservative exhibit larger acquiescence bias than both those who identify as very liberal and those with less ideological identification. Our results suggest that existing conclusions in part are driven by greater acquiescence bias by survey respondents with conservative leanings rather than greater endorsement of conspiracies by conservatives.&lt;/p&gt;
+
+&lt;h1 id=&quot;methods-to-correct-for-acquiescence-bias&quot;&gt;Methods to correct for acquiescence bias&lt;/h1&gt;
+
+&lt;p&gt;We not only show how acquiescence bias inflates survey estimates of endorsement of conspiratorial beliefs. We also present some simple statistical fixes to correct for the bias. We show that if analysts field two versions of each question, one where the acquiescent response indicates endorsement of the conspiracy and one where the acquiescent response indicates non-endorsement of the conspiracy, combining responses from the two versions of the question can cancel out acquiescence bias. This yields an estimate closer to the likely true rate of endorsement in the population.&lt;/p&gt;
+
+&lt;p&gt;We also propose corrections for the correlation of acquiescence bias with political ideology.&lt;/p&gt;
+
+&lt;h1 id=&quot;be-cautious-with-dire-news-headlines&quot;&gt;Be cautious with dire news headlines&lt;/h1&gt;
+
+&lt;p&gt;Our study does not show that conspiratorial beliefs are absent or that democracy is not in trouble. But it does show that consumers of political surveys and political news ought to be cautious about drawing conclusions from survey responses about political beliefs. And it shows that those who design surveys should account for acquiescence bias when writing questions to measure beliefs about political issues and conspiracies.&lt;/p&gt;</content><author><name></name></author><category term="political" /><category term="beliefs" /><summary type="html"></summary></entry><entry><title type="html">How to reduce greenhouse gas emissions, unlock $1 trillion of land, and free 1 billion days of time</title><link href="http://www.sethjhill.com/blog/2021/03/23/challenge-prize-flying-cars/" rel="alternate" type="text/html" title="How to reduce greenhouse gas emissions, unlock $1 trillion of land, and free 1 billion days of time" /><published>2021-03-23T00:00:00-07:00</published><updated>2021-03-23T00:00:00-07:00</updated><id>http://www.sethjhill.com/blog/2021/03/23/challenge-prize-flying-cars</id><content type="html" xml:base="http://www.sethjhill.com/blog/2021/03/23/challenge-prize-flying-cars/">&lt;p&gt;Congress and the Biden Administration are in discussions on a multi-trillion dollar infrastructure bill. Much of that money would fund construction of roadways using concrete, steel, and asphalt.&lt;/p&gt;
 
 &lt;p&gt;For our climate, let’s pause on this one. Let’s start by funding &lt;strong&gt;challenge prizes for the three best flying car produced in the next year&lt;/strong&gt;. Give the world twelve months and then award a first-place prize of $1 billion, a second place prize of $750 million, and a third place prize of $250 million. Have minimum parameters for the entries, something like (a) must fly 15 miles in 15 minutes, (b) vertical take off and landing, (c) electric or gasoline engine at equal or lower emissions than foor-door sedan, and (d) noise limited to some reasonable magnitue. This would be a &lt;a href=&quot;https://en.wikipedia.org/wiki/Inducement_prize_contest&quot; target=&quot;_blank&quot;&gt;inducement prize contest&lt;/a&gt; in the great historical tradition.&lt;/p&gt;
 
