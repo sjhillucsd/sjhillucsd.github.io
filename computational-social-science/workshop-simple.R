@@ -30,7 +30,7 @@ dat = dat[,-1]
 for (i in 1:ncol(dat)) { dat[,i] = as.numeric(dat[,i])}
 # Make it a bit more interesting with a few more votes,
 # sampled at random.
-set.seed(20220826)
+set.seed(226)
 dat$Vote6 = rbinom(5,prob=rowMeans(dat,na.rm=T),size=1)
 dat$Vote7 = rbinom(5,prob=.7*rowMeans(dat,na.rm=T),size=1)
 dat$Vote8 = rbinom(5,prob=1-rowMeans(dat,na.rm=T)/2,size=1)
