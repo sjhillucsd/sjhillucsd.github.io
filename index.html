@@ -16,7 +16,22 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 main {margin-left: 120px}
 /* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+@media only screen and (max-width: 600px) {
+  #main {margin-left: 0}
+  main {
+    margin-left: 0;
+    border-left: 0 !important;
+  }
+  .w3-sidebar {
+    width: 100%;
+    position: static;
+  }
+  .w3-content {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
 </style>
 <script language="JavaScript">
 <!-- Begin
@@ -130,11 +145,11 @@ main {margin-left: 120px}
  <h2 class="w3-text-light-grey">peer-reviewed articles</h2>
  <ul>
   <li>Ban, Pamela and Seth J. Hill. 2024. "Efficacy of Congressional Oversight." <br>
-<i>American Political Science Review</i> Conditional accept. [ <a href="#46">Abstract.</a> | <a href="https://osf.io/2djky">Ungated.</a> ]</li>
+<i>American Political Science Review</i> Forthcoming. [ <a href="#46">Abstract.</a> | <a href="https://osf.io/2djky">Ungated.</a> ]</li>
 <br>
 
    <li>Lockhart, Mackenzie, Jennifer Gaudette, Seth J. Hill, Thad Kousser, Mindy Romero, and Laura Uribe. 2024. "Voters Distrust Delayed Election Results, But a Prebunking Message Inoculates Against Distrust." <br>
-<i>PNAS Nexus</i> Conditional accept. [ <a href="#51">Abstract.</a> | <a href="https://osf.io/preprints/osf/9zdtb">Ungated.</a> ]</li>
+<i>PNAS Nexus</i> Forthcoming. [ <a href="#51">Abstract.</a> | <a href="https://osf.io/preprints/osf/9zdtb">Ungated.</a> ]</li>
 <br>
 
    <li>Biggers, Daniel R., Elizabeth Mitchell Elder, Seth J. Hill, Thad Kousser, Gabriel S. Lenz, Mac Lockhart. 2023. "Can Addressing Integrity Concerns about Mail Balloting Increase Turnout? Results from a Large-Scale Field Experiment in the 2020 Presidential Election." <br>
@@ -322,7 +337,7 @@ main {margin-left: 120px}
 <br>
 
    <li><a name="46"></a><big>Ban, Pamela and Seth J. Hill. 2024. "Efficacy of Congressional Oversight." <br>
-<i>American Political Science Review</i> Conditional accept.</big> [ <a href="https://osf.io/2djky">Ungated.</a> ]<br>
+<i>American Political Science Review</i> Forthcoming.</big> [ <a href="https://osf.io/2djky">Ungated.</a> ]<br>
   <b>Abstract</b>: Oversight, scholars argue, allows Congress to control the executive agents it empowers to implement law. Yet the tools of oversight are rather limited and debate continues as to how much influence oversight provides. How well can members of Congress motivate performance within the bureaucracy? To measure the efficacy of oversight, we create a new data set on a bureaucratic deficiency that Congress has sought to reduce since the early 2000s: improperly-made payments to contractors and clients. We estimate the effect of congressional hearings, one of the most important tools of congressional oversight, as well as correspondence, appropriation committee reports, statutes, and executive action. We find small or no effects of these tools on subsequent improper payments, suggesting strong limits on the efficacy of congressional oversight. Our findings imply that America's elected officials struggle to effectively manage implementation of government policy.</li>
 <br>
 
@@ -535,7 +550,7 @@ successfully increase turnout among low-propensity voters.</li>
 <br>
 
    <li><a name="51"></a><big>Lockhart, Mackenzie, Jennifer Gaudette, Seth J. Hill, Thad Kousser, Mindy Romero, and Laura Uribe. 2024. "Voters Distrust Delayed Election Results, But a Prebunking Message Inoculates Against Distrust." <br>
-<i>PNAS Nexus</i> Conditional accept.</big> [ <a href="https://osf.io/preprints/osf/9zdtb">Ungated.</a> ]<br>
+<i>PNAS Nexus</i> Forthcoming.</big> [ <a href="https://osf.io/preprints/osf/9zdtb">Ungated.</a> ]<br>
   <b>Abstract</b>: Counting and certifying election results in the United States can take days and even weeks following election day. These delays are often linked to distrust in elections, but does delay cause distrust? What can election officials do to counteract distrust if counting most ballots and announcing results cannot occur on election night? Using a pre-registered survey experiment of nearly 10,000 Americans, this paper shows that informing voters about longer-than-expected vote counting time induces a large, significant decrease in trust in the election. However, viewing a ‘prebunking’ video in advance of being informed of the delay in results more than makes up for the delay-induced decrease in election trust. Our findings have two important implications. First, unexpected delays in calling elections induce distrust even without misinformation from third parties. Second, providing voters with information about vote counting and the legitimate reasons for delays increases trust and mitigates the distrust induced by delays.</li>
 <br>
 
@@ -587,7 +602,7 @@ successfully increase turnout among low-propensity voters.</li>
   <ul>
 
    <li>Ban, Pamela and Seth J. Hill. 2024. "Efficacy of Congressional Oversight." <br>
-<i>American Political Science Review</i> Conditional accept. [ <a href="#46">Abstract.</a> | <a href="https://osf.io/2djky">Ungated.</a> ]</li>
+<i>American Political Science Review</i> Forthcoming. [ <a href="#46">Abstract.</a> | <a href="https://osf.io/2djky">Ungated.</a> ]</li>
 <br>
 
    <li>Hill, Seth J. 2022. "A Theory of Intensity, Electoral Competition, and Costly Political Action." <br>
@@ -748,7 +763,7 @@ successfully increase turnout among low-propensity voters.</li>
   <ul>
 
    <li>Lockhart, Mackenzie, Jennifer Gaudette, Seth J. Hill, Thad Kousser, Mindy Romero, and Laura Uribe. 2024. "Voters Distrust Delayed Election Results, But a Prebunking Message Inoculates Against Distrust." <br>
-<i>PNAS Nexus</i> Conditional accept. [ <a href="#51">Abstract.</a> | <a href="https://osf.io/preprints/osf/9zdtb">Ungated.</a> ]</li>
+<i>PNAS Nexus</i> Forthcoming. [ <a href="#51">Abstract.</a> | <a href="https://osf.io/preprints/osf/9zdtb">Ungated.</a> ]</li>
 <br>
 
    <li>Hill, Seth J. and Margaret E. Roberts. 2023. "Acquiescence Bias Inflates Estimates of Conspiratorial Beliefs and Political Misperceptions." <br>
